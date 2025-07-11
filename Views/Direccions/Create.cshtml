@@ -1,0 +1,57 @@
+﻿@model CrudMVCApp.Models.Direccion
+
+@{
+    ViewData["Title"] = "Crear Dirección";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm" style="max-width: 500px;">
+  
+            <h2 class="fw-bold mb-3 text-dark text-center">CREAR DIRECCION</h2>
+        
+        <div class="card-body">
+            <form asp-action="Create" method="post" novalidate>
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger d-none" id="validationSummary"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Calle" class="form-label">Calle</label>
+                    <input asp-for="Calle" class="form-control" />
+                    <span asp-validation-for="Calle" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Ciudad" class="form-label">Ciudad</label>
+                    <input asp-for="Ciudad" class="form-control" />
+                    <span asp-validation-for="Ciudad" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CodigoPostal" class="form-label">Código Postal</label>
+                    <input asp-for="CodigoPostal" class="form-control" />
+                    <span asp-validation-for="CodigoPostal" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PersonaId" class="form-label">Persona</label>
+                    <select asp-for="PersonaId" class="form-select" asp-items="ViewBag.PersonaId">
+                        <option value="">Seleccione Persona</option>
+                    </select>
+                    <span asp-validation-for="PersonaId" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-dark text-white w-100">
+                    Crear
+                </button>
+                <a asp-action="Index" class="btn btn-dark text-white w-100 mt-2">
+                    Volver 
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

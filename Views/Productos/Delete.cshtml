@@ -1,0 +1,40 @@
+﻿@model CrudMVCApp.Models.Producto
+
+@{
+    ViewData["Title"] = "Eliminar Producto";
+}
+
+<div class="container mt-5">
+    <div class="card border-white shadow p-4">
+        <h3 class="mb-3 text-dark">
+            <i class="text-center"></i> ¿Estás seguro que querés eliminar este producto?
+        </h3>
+
+        <dl class="row">
+            <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Nombre)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Nombre)</dd>
+
+            <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Descripcion)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Descripcion)</dd>
+
+            <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.PrecioCompra)</dt>
+            <dd class="col-sm-9">$@Html.DisplayFor(model => model.PrecioCompra)</dd>
+
+            <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.PrecioVta)</dt>
+            <dd class="col-sm-9">$@Html.DisplayFor(model => model.PrecioVta)</dd>
+
+            <dt class="col-sm-3 fw-bold">@Html.DisplayNameFor(model => model.Stock)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Stock)</dd>
+        </dl>
+
+        <form asp-action="Delete" class="mt-4">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-dark text-white me-2">
+                <i></i> Eliminar
+            </button>
+            <a asp-action="Index" class="btn btn-dark text-white">
+                <i></i> Cancelar
+            </a>
+        </form>
+    </div>
+</div>

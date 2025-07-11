@@ -1,0 +1,40 @@
+@model CrudMVCApp.Models.Usuario
+
+@{
+    ViewData["Title"] = "Detalles de Usuario";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0">
+               
+                    <h1 class="fw-bold mb-3 text-dark text-center">DETALLES</h1>
+                
+                <div class="card-body bg-light p-4">
+                    <h4 class="fw-bold mb-3 text-dark text-center">USUARIO</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-3 fw-semibold">
+                            @Html.DisplayNameFor(model => model.nombre)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.nombre)
+                        </dd>
+
+                        <dt class="col-sm-3 fw-semibold">
+                            @Html.DisplayNameFor(model => model.Tipo)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.Tipo)
+                        </dd>
+                    </dl>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-dark text-white me-2">Editar</a>
+                    <a asp-action="Index" class="btn btn-dark text-white">Volver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
