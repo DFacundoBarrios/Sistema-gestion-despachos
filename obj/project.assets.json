@@ -7756,11 +7756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\TrabajoPractico-master (2)\\TrabajoPractico-master (2)\\TrabajoPractico-master (2)\\CrudMVCApp.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UTN FRRa\\SGD-PROYECTO\\TrabajoPractico-master (2)\\Sistema-gestion-despachos\\CrudMVCApp.csproj",
       "projectName": "CrudMVCApp",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\TrabajoPractico-master (2)\\TrabajoPractico-master (2)\\TrabajoPractico-master (2)\\CrudMVCApp.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\UTN FRRa\\SGD-PROYECTO\\TrabajoPractico-master (2)\\Sistema-gestion-despachos\\CrudMVCApp.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\TrabajoPractico-master (2)\\TrabajoPractico-master (2)\\TrabajoPractico-master (2)\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\UTN FRRa\\SGD-PROYECTO\\TrabajoPractico-master (2)\\Sistema-gestion-despachos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
