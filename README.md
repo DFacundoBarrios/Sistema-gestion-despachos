@@ -281,7 +281,7 @@ GET    /api/reportes/export    # Exportar datos
 
 ## 🙏
 
-Este proyecto fue desarrollado como **trabajo integrador académico para materia Programacion 3 Backend** en el marco de la formación en desarrollo de software. Agradecimientos especiales a:
+Este proyecto fue desarrollado como **trabajo integrador académico para materia Programacion 3 Backend** en el marco de la formación en desarrollo de software.
 
 
 
