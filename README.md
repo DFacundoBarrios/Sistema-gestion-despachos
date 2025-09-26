@@ -10,7 +10,6 @@ Esta solución permite a las empresas de logística y distribución manejar efic
 
 ### 🚚 **Gestión de Despachos**
 - Creación y administración de órdenes de despacho
-- Asignación automática de rutas de entrega
 - Control de estados de pedidos (Pendiente, En proceso, Enviado, Entregado)
 - Seguimiento en tiempo real de entregas
 - Gestión de devoluciones y reprogramaciones
@@ -31,13 +30,9 @@ Esta solución permite a las empresas de logística y distribución manejar efic
 - Reportes de productividad diaria/mensual
 - Estadísticas de entregas exitosas
 - Análisis de tiempos de despacho
-- Exportación a PDF y Excel
-- Gráficos interactivos de rendimiento
 
 ### 🔒 **Seguridad y Auditoría**
 - Autenticación y autorización segura
-- Log de todas las operaciones críticas
-- Backup automático de datos
 - Encriptación de información sensible
 
 ## 🛠️ Tecnologías Utilizadas
