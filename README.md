@@ -58,7 +58,6 @@ Esta solución permite a las empresas de logística y distribución manejar efic
 ### **Herramientas y Librerías**
 - **Visual Studio 2022** - IDE de desarrollo
 - **SQL Server Management Studio** - Gestión de BD
-- **Postman** - Testing de APIs
 - **Git/GitHub** - Control de versiones
 - **NuGet** - Gestor de paquetes .NET
 
